@@ -1,0 +1,12 @@
+.footer {
+  background-color: $granite-gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem;
+
+  &__logo {
+    width: 270px;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #686963;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.navigation {
+  background-color: #ffffff;
+  padding: 1rem 8rem;
+}
+.navigation__logo {
+  width: 335px;
+  vertical-align: middle;
+}
+
+.header {
+  background-color: #e56353;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.header__title {
+  font-size: 100px;
+  font-weight: 200;
+}
+.header__emphasis {
+  display: block;
+  text-align: center;
+  margin-top: 4.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main__article--bg-dark {
+  background-color: #91918d;
+  color: #fafafa;
+}
+
+.about__title {
+  background-color: #e56353;
+  color: #fafafa;
+  text-transform: uppercase;
+  font-size: 70px;
+  text-align: center;
+  padding: 8rem;
+}
+
+.contact {
+  background-color: #e56353;
+  color: #ffffff;
+  text-align: center;
+  padding: 7rem 0 5rem;
+}
+.contact__quote {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 7rem;
+}
+
+.footer {
+  background-color: #686963;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem;
+}
+.footer__logo {
+  width: 270px;
+  vertical-align: middle;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+.article__img--main {
+  max-height: 500px;
+  width: 1350px;
+}
+.article__img--about {
+  width: 500px;
+}
+.article__container {
+  padding: 3rem 0 0;
+  max-width: 50%;
+}
+.article__title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.article__text {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 5rem;
+}
+.btn--default {
+  background-color: #ffffff;
+  color: #686963;
+  border-color: #686963;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.btn--default:hover {
+  background-color: #babab8;
+  color: #fafafa;
+  border-color: #fafafa;
+}
+.btn--big {
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 1rem 8rem;
+}
+
+/*# sourceMappingURL=main.css.map */

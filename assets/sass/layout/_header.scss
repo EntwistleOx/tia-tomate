@@ -1,0 +1,21 @@
+.header {
+  background-color: $jelly-bean;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+
+  &__title {
+    font-size: $xx_large;
+    font-weight: $extra-light;
+  }
+
+  &__emphasis {
+    display: block;
+    text-align: center;
+    margin-top: 4.2rem;
+    font-weight: $bold;
+    text-transform: uppercase;
+  }
+}

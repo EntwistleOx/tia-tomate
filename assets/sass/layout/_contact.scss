@@ -1,0 +1,12 @@
+.contact {
+  background-color: $jelly-bean;
+  color: $white;
+  text-align: center;
+  padding: 7rem 0 5rem;
+
+  &__quote {
+    font-size: $x-large;
+    font-weight: $bold;
+    margin-bottom: 7rem;
+  }
+}

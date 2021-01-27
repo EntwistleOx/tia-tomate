@@ -1,0 +1,24 @@
+.btn {
+  font-weight: $bold;
+  border-radius: 5rem;
+
+  &--default {
+    background-color: $white;
+    color: $granite-gray;
+    border-color: $granite-gray;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
+
+    &:hover {
+      background-color: $gray;
+      color: $snow;
+      border-color: $snow;
+    }
+  }
+
+  &--big {
+    font-size: $large;
+    text-transform: uppercase;
+    padding: 1rem 8rem;
+  }
+}
